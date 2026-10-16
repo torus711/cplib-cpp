@@ -36,6 +36,11 @@
 - etc.
 非常に昔に書かれたので要見直し．
 
+### tree.cpp
+木のアルゴリズム．
+- 直径
+- Lowest Common Ancestor
+
 ### mathematics
 数学っぽいやつら．
 
