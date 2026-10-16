@@ -28,6 +28,9 @@
 - Fenwick Tree
 - etc.
 
+### mathematics
+数学っぽいやつら．
+
 ### mathematicsACL
 数学っぽいやつらの [ACL](https://github.com/atcoder/ac-library) 使用版．
 - 階乗
