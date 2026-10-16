@@ -12,6 +12,16 @@
 いわゆるテンプレ．
 説明は[昔書きました](https://torus711.hatenablog.com/entry/2023/12/04/231653)が内容が最新ではないです．
 
+### algorithm.cpp
+他のカテゴリに該当しなかったアルゴリズムたち．
+- 二分法
+- 累積和
+    - 二次元累積和
+- いもす法
+    - 二次元いもす法
+- Run Length Encoding
+- etc.
+
 ### dataStructure.cpp
 データ構造色々．
 - Disjoint Set Forest とそのバリエーション
