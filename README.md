@@ -51,6 +51,9 @@
 ACL の `segtree`, `lazysegtree` 用の雛形．
 特に後者のテンプレート引数の順序を覚えられないのでね……．
 
+### dynamic_programming.cpp
+典型 DP を蒐集しようとした痕跡．
+
 ### geometry_complex.cpp
 幾何色々．
 永遠に未完成．
