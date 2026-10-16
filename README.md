@@ -6,3 +6,8 @@
 
 [sniplate.vim](https://github.com/MiSawa/sniplate.vim) で貼り付ける運用をしているので，sniplate.vim のためのコメント行が入っています．
 未対応のところの方が多い気もしますが……．
+
+## 各ファイルについて
+### template.cpp
+いわゆるテンプレ．
+説明は[昔書きました](https://torus711.hatenablog.com/entry/2023/12/04/231653)が内容が最新ではないです．
