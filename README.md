@@ -75,5 +75,8 @@ ACL の `segtree`, `lazysegtree` 用の雛形．
 幾何色々．
 永遠に未完成．
 
+### pb_ds.cpp
+pb_ds の `tree` を順序集合として使うエイリアステンプレート．
+
 ### util.cpp
 ユーティリティという名の未分類．
