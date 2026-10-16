@@ -28,5 +28,10 @@
 - Fenwick Tree
 - etc.
 
+### mathematicsACL
+数学っぽいやつらの [ACL](https://github.com/atcoder/ac-library) 使用版．
+- 階乗
+- 二項係数
+
 ### util.cpp
 ユーティリティという名の未分類．
