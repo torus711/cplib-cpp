@@ -12,5 +12,11 @@
 いわゆるテンプレ．
 説明は[昔書きました](https://torus711.hatenablog.com/entry/2023/12/04/231653)が内容が最新ではないです．
 
+### dataStructure.cpp
+データ構造色々．
+- Disjoint Set Forest とそのバリエーション
+- Fenwick Tree
+- etc.
+
 ### util.cpp
 ユーティリティという名の未分類．
