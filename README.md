@@ -64,6 +64,10 @@
 ACL の `segtree`, `lazysegtree` 用の雛形．
 特に後者のテンプレート引数の順序を覚えられないのでね……．
 
+### liner_algebra.cpp
+線形代数．
+使いづらいし設計の筋も悪いので要見直し．
+
 ### dynamic_programming.cpp
 典型 DP を蒐集しようとした痕跡．
 
