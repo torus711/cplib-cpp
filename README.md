@@ -44,6 +44,13 @@
 - 階乗
 - 二項係数
 
+### segmentTree.cpp
+典型っぽいセグメント木色々．
+
+### segmentTreeACL.cpp
+ACL の `segtree`, `lazysegtree` 用の雛形．
+特に後者のテンプレート引数の順序を覚えられないのでね……．
+
 ### geometry_complex.cpp
 幾何色々．
 永遠に未完成．
