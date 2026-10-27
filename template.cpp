@@ -2,7 +2,10 @@
 // {{ abbr: my template }}
 // {{ class: util }}
 // {{ pattern: ^int\smain\(\) }}
-// Template is published at https://github.com/torus711/cplib-cpp/template.cpp
+// Author: @torus711
+// All pasted codes are published at GitHub:
+// https://github.com/torus711/cplib-cpp/
+
 #include <iostream>
 #include <iomanip>
 #include <sstream>
