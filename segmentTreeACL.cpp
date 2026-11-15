@@ -1,10 +1,16 @@
-// BEGIN SNIPLATE segtreeACL 
-// {{ abbr: template for ACL's segtree }}
+// BEGIN SNIPLATE include_segtree 
+// {{ abbr: includes <atcoder/segtree> }}
 // {{ class: ACL }}
 // {{ pattern: #include <atcoder/segtree> }}
 #include <atcoder/segtree>
 using namespace atcoder;
 
+// END SNIPLATE
+
+// BEGIN SNIPLATE segtreeACL 
+// {{ abbr: template for ACL's segtree }}
+// {{ class: ACL }}
+// {{ require: include_segtree }}
 namespace SegTree
 {
 	using S = int;
