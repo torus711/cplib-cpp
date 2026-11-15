@@ -30,13 +30,19 @@ namespace SegTree
 
 // END SNIPLATE
 
-// BEGIN SNIPLATE LazySegtreeACL 
-// {{ abbr: my template }}
-// {{ class: util }}
+// BEGIN SNIPLATE include_lazysegtree 
+// {{ abbr: includes <atcoder/lazysegtree> }}
+// {{ class: ACL }}
 // {{ pattern: #include <atcoder/lazysegtree> }}
 #include <atcoder/lazysegtree>
 using namespace atcoder;
 
+// END SNIPLATE
+
+// BEGIN SNIPLATE LazySegtreeACL 
+// {{ abbr: template for ACL's lazy_segtree }}
+// {{ class: ACL }}
+// {{ require: include_lazysegtree }}
 namespace LazySegTree
 {
 	using S = int;
