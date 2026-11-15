@@ -37,7 +37,7 @@ namespace SegTree
 #include <atcoder/lazysegtree>
 using namespace atcoder;
 
-namespace ST
+namespace LazySegTree
 {
 	using S = int;
 
