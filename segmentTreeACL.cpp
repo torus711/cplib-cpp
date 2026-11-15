@@ -39,7 +39,7 @@ using namespace atcoder;
 
 namespace ST
 {
-	using S = {{cursor}};
+	using S = int;
 
 	// F: S -> S
 	struct F
