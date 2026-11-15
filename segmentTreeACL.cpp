@@ -5,19 +5,22 @@
 #include <atcoder/segtree>
 using namespace atcoder;
 
-using S = int;
-
-S op( const S a, const S b )
+namespace SegTree
 {
-	return a + b;
-}
+	using S = int;
 
-S e()
-{
-	return 0;
-}
+	S op( const S a, const S b )
+	{
+		return a + b;
+	}
 
-// segtree< S, op, e > 
+	S e()
+	{
+		return 0;
+	}
+
+	using segtree = segtree< S, op, e >;
+}
 
 // END SNIPLATE
 
