@@ -202,7 +202,7 @@ public:
 
 	using base = DisjointSetForest;
 
-	int find( const int y, const int x )
+	int find( const int y, const int x ) const
 	{
 		return base::find( index( y, x ) );
 	}
@@ -217,9 +217,23 @@ public:
 		return base::unite( index( y1, x1 ), index( y2, x2 ) );
 	}
 
-	int groups() const
+	int numGroups() const
 	{
-		return base::groups();
+		return groups_;
+	}
+
+	std::vector< std::vector< int > > groups() const
+	{
+		std::vector< std::vector< int > > result( N );
+		for ( int i = 0; i < H; ++i )
+		{
+			for ( int j = 0; j < W; ++ j )
+			{
+				result[ find( i, j ) ].push_back( i * W + j );
+			}
+		}
+		std::ranges::remove_if( result, &std::vector< int >::empty );
+		return result;
 	}
 
 	int groupSize( const int y, const int x )
